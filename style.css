@@ -1,0 +1,23 @@
+body {
+    background: url(./img-10.jpg);
+    background-size: 100vw;
+    background-size: 200vh;
+}
+
+#a {
+    display: flex;
+    align-items: flex-end;
+    height: 97vh;
+    overflow: hidden;
+}
+
+.car {
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {padding-left: 0vw;}
+    100% {padding-left: 100vw;}
+}
